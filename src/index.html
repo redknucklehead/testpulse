@@ -90,8 +90,11 @@
             <div class="consultation__descr">
                 Просто заполните форму заявки <br>и мы перезвоним вам в течении 10 минут
             </div>
-            <form action="#">
-                <input type="text" placeholder="Ваше имя">
+            <form class="feed-form" action="#">
+                <input name="name" required type="text" placeholder="Ваше имя">
+                <input name="phone" required type="number" placeholder="Ваш телефон">
+                <input name="email" required type="email" placeholder="Ваш E-mail">
+                <button class="button button_submit" >заказать консультацию</button>
             </form>
         </div>
     </div>
